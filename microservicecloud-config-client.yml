@@ -3,7 +3,7 @@
        active:
        - dev
 ---
-sever:
+server:
    port: 8201
 spring:
    profiles: dev
@@ -14,7 +14,7 @@ eureka:
        service-url:
           defaultZone: http://eure-dev.com:7001/eureka/
 ---
-sever:
+server:
    port: 8202
 spring:
    profiles: test
